@@ -1,20 +1,11 @@
-import React, { Component } from 'react'
-import './App.css'
+import React from 'react'
 
-class App extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      board: ["?", "?", "?", "?", "?", "?", "?", "?", "?"]
-    }
-  }
-
-  render() {
-    return(
-      <>
-        <h1>Treasure Hunt Game</h1>
-      </>
-    )
-  }
+const App = () => {
+  const [board, setBoard] = useState(["?", "?", "?", "?", "?", "?", "?", "?", "?"])
+  
+  return (
+    <div>Treasure Hunt Game</div>
+  )
 }
+
 export default App
