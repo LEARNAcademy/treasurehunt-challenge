@@ -18,9 +18,7 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 #### Process
 
-- One person on the team accepts the group assignment from GitHub classroom
-- Create a team name
-- Add additional team members via GitHub handle
+- Accept the assignment from GitHub classroom
 - Clone the newly created repository
 - `cd` into the repository
 - Run $ `yarn` to install the React dependencies
