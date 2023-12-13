@@ -18,7 +18,8 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 
 #### Process
 
-- One member of the team will accept the assignment from GitHub classroom
+- One person on the team accepts the group assignment from GitHub classroom
+- Create a team name (team name can be whatever you would like as long as it is work-appropriate)
 - Clone the newly created repository
 - `cd` into the repository
 - Run $ `yarn` to install the React dependencies
@@ -68,7 +69,14 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - Can select the random winning square and the question mark will become a treasure emoji
 - Can select the random losing square and the question mark will become a bomb emoji
 
-**Story 3**: In order to play the treasure hunt game, as the user of the application, I should see a counter that starts at five and decrements by one every time I click on a square that is neither the treasure nor the bomb.
+**Story 3**: In order to play the treasure hunt game, as the user of the application, I should be able to restart the game at any time.
+
+**Branch**: restart
+
+- Can see a button called “Play Again”
+- Can click on the “Play Again” button to reset the board game
+
+**Story 4**: In order to play the treasure hunt game, as the user of the application, I should see a counter that starts at five and decrements by one every time I click on a square that is neither the treasure nor the bomb.
 
 **Branch**: counter
 
@@ -77,7 +85,7 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - Can see a counter that starts at five
 - Can see the counter decrement by one for each guess
 
-**Story 4**: In order to play the treasure hunt game, as the user of the application, I should be notified when I win the game or when I lose the game and not be able to keep playing.
+**Story 5**: In order to play the treasure hunt game, as the user of the application, I should be notified when I win the game or when I lose the game and not be able to keep playing.
 
 **Branch**: end-of-game
 
@@ -85,13 +93,6 @@ As a developer, you are tasked with creating a treasure hunt game. The user will
 - Can see a message stating that I won the game after selecting the square that contains the bomb
 - Can see a message stating that I won the game after the counter reaches zero
 - Cannot continue the game play once the game has been won or lost
-
-**Story 5**: In order to play the treasure hunt game, as the user of the application, I should be able to restart the game at any time.
-
-**Branch**: restart
-
-- Can see a button called “Play Again”
-- Can click on the “Play Again” button to reset the board game
 
 ### 🏔 Stretch Challenges
 
